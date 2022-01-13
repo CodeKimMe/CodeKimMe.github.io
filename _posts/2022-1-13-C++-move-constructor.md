@@ -96,4 +96,4 @@ void String::printString() const
 }
 ```
 
-Thanks, I will definitely find a way to open up comment section to interact with whoever wants to leave a comment!
+Thanks, I will definitely find a way to open up a comment section to interact with whoever wants to leave a comment!
