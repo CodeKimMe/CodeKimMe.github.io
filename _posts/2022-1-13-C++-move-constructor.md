@@ -22,7 +22,7 @@ public:
 };
 ```
 
-String class has a pointer to the actual string and a size as member variables. For the sake of simplicity, I omitted a lot of functionality the std::string has.
+String class has a pointer to the actual string and a size as member variables. For the sake of simplicity, I omitted a lot of functionalities the std::string has.
 
 Here's what I want to achieve. 
 ```cpp
