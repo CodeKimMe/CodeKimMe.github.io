@@ -1,9 +1,6 @@
 ---
 layout: post
-title: First Blog Post
+title: Welcome to my blog!
 published: true
 ---
-
-# This is your first blog with Jekyll
-
-## Congrats!
+## Hi my name is CodeKim
