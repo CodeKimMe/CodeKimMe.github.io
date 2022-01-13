@@ -4,12 +4,11 @@ published: true
 ### This post is about C++ move constructor.
 
 I felt like there's a lot of features that C++ provides behind the scenes, so I created a String class to manually move an object.
+
 Version above C++11.
 
 String.h file.
 ```cpp
-#pragma once
-
 class String
 {
 private:
