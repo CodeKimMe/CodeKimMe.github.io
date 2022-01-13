@@ -36,7 +36,7 @@ int main(int argc, char** argv)
 ```
 I want to create a String with content "Kyle", and then create a copy of that string without memory copy. Since std::move is just a static_cast to rvalue reference, I have to define move constructor in order to move the String(I can also do this by overriding operator=()(String&&) function, but I'll save that for later).
 
-Since String(const char* strInput) is defined the way you'd expect it to be, I'll leave the definition at the bottom of the page. Now let's look at the move constructor's definition.
+Since String(const char* strInput) is defined the way you'd expect it to be, I'll leave the definition at the bottom of the page with the rest obvious functions. Now let's look at the move constructor's definition.
 
 ```cpp
 String::String(String&& strInput) noexcept
