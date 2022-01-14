@@ -3,6 +3,8 @@ published: true
 ---
 ### This post is about C++ move constructor.
 
+(This post is a note from reading "Effective Modern C++" by Scott Meyers, all credits to Scott Meyers)
+
 I felt like there's a lot of features that C++ provides behind the scenes, so I created a String class to manually move an object.
 
 Version above C++11.
