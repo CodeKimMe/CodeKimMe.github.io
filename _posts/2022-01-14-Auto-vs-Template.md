@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## How Auto differs from template type deduction.
 
@@ -29,3 +29,8 @@ int main()
 	f2({ 1,2,3,4 });
 }
 ```
+
+f1({ 1,2,3,4 }); generates a compile error, when f2({ 1,2,3,4 }); doesn't. 
+listData is initialized to std::initializer_list<int> type.
+  
+The only real difference between auto and template type deduction is that auto assumes that a braced initializer after equal sign represents a std::initializer_list, but template type deduction doesn't.
